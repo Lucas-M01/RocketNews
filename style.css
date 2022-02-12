@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --body-bg-color: #121214;
+    --text-color: #E1E1E6;
+    --title-color: #04D361;
+    --form-color: #A8A8A8;
+    --bg-button-color: #8257e5;
+}
+
+body {
+    position: absolute;
+    font-family: 'Spartan', sans-serif;
+    width: 720px;
+    height: 1em;
+    background: var(--body-bg-color);
+}
+
+#right {
+    width: 1175px;
+    height: 900px;
+    right: 100vh;
+}
+
+#logo {
+    position: absolute;
+    width: 389px;
+    height: 94px;
+    left: 30px;
+    top: 50px;
+}
+
+#text{
+    position: absolute;
+    width: 647px;
+    height: 102.44px;
+    left: 36px;
+    top: 230px;
+}
+
+h2 {
+    font-family: 'Work Sans', sans-serif;
+    color: var(--title-color);
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+
+    width: 566px;
+    height: 30.44px;
+    left: 36px;
+    top: 230px;
+}
+
+h3 {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+
+    width: 517px;
+    height: 16px;
+    left: 36px;
+    top: 269.44px;
+    margin-bottom: 3px;
+}
+
+p {
+    color: var(--text-color);
+    font-size: 14px;
+    line-height: 19px;
+
+    width: 647px;
+    height: 38px;
+    left: 36px;
+    top: 294.44px;
+}
+
+form {
+    position: absolute;
+    width: 798px;
+    height: 84px;
+    left: 36px;
+    top: 388px;
+}
+
+#form {
+    display: flex;
+}
+
+label {
+    color: var(--form-color);
+    width: 133px;
+    height: 19px;
+    left: 36px;
+    top: 388px;
+
+    font-family: 'Spartan', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 138.73%;
+}
+
+input{
+    width: 798px;
+    height: 48px;
+    left: 36px;
+    top: 424px;
+    border-left: 5px solid var(--title-color);
+    padding: 5px;
+
+    filter: drop-shadow(4px 10px 15px rgba(0, 0, 0, 0.5));
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+button {
+    width: 48px;
+    height: 48px;
+    left: 786px;
+    top: 424px;
+    border: 1px solid var(--bg-button-color);
+    margin-top: 1px;
+
+    background-color: var(--bg-button-color);
+}
+
+a {
+    color: var(--bg-button-color);
+    text-decoration: none;
+
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 138.73%;
+}
+
+#arrow {
+    width: 25px;
+    height: 19px;
+    left: 208px;
+    top: 522px;
+}
+
+#link {
+    position: absolute;
+    width: 267px;
+    height: 19px;
+    left: 36px;
+    top: 524px;
+    display: flex;
+}
+
+#readnews{
+    position: absolute;
+    width: 806px;
+    height: 720px;
+    left: 730px;
+}
